@@ -1,0 +1,28 @@
+{
+  "name": "dnd_player_creator",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/smakon/DnD_Player_creator.git"
+  },
+  "author": "Samakon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/smakon/DnD_Player_creator/issues"
+  },
+  "homepage": "https://github.com/smakon/DnD_Player_creator#readme",
+  "description": "",
+  "dependencies": {
+    "app": "^0.1.0",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.3",
+    "cors": "^2.8.5",
+    "express": "^4.21.1",
+    "mysql": "^2.18.1"
+  }
+}
