@@ -7,9 +7,9 @@ const bcrypt = require('bcryptjs')
 
 
 const conn = mysql.createConnection({
-	host: 'localhost',
+	host: 'jufirjigoop.beget.app:3306',
 	user: 'dnd_player_builder',
-	password: 'm&3VFj43sK9p',
+	password: '12345678Sas)',
 	database: 'dnd_player_builder',
 })
 
