@@ -5,8 +5,9 @@ const mysql = require('mysql')
 const cors = require('cors')
 const bcrypt = require('bcryptjs')
 
+
 const conn = mysql.createConnection({
-	host: '10.16.0.1:3306',
+	host: 'localhost',
 	user: 'dnd_player_builder',
 	password: 'm&3VFj43sK9p',
 	database: 'dnd_player_builder',
